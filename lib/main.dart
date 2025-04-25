@@ -1,3 +1,4 @@
+import 'package:blinkit_ui/repository/widget/screen/loginScreen/loginscreen.dart';
 import 'package:blinkit_ui/repository/widget/screen/splash/splashscreen.dart';
 import 'package:flutter/material.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const SplashScreen(),
+      home: const LogInScreen(),
     );
   }
 }
